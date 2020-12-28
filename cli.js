@@ -54,9 +54,12 @@ for ( const prop in options ) {
 			target = `./.${prop}rc`;
 			break;
 		case 'webpack':
-		case 'stylelint':
 			fileToCopy = `${__dirname}/${prop}.config.js`;
 			target = `./${prop}.config.js`;
+			break;
+		case 'stylelint':
+			fileToCopy = `${__dirname}/.${prop}rc.json`;
+			target = `./.${prop}rc.json`;
 			break;
 		case 'gulpfile':
 			fileToCopy = `${__dirname}/gulpfile.dist.js`;
