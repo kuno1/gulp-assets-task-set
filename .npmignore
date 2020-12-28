@@ -4,3 +4,4 @@ node_modules/
 dist/
 package-lock.json
 wp-dependencies.json
+.idea/

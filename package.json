@@ -11,13 +11,19 @@
     "type": "git",
     "url": "git+https://github.com/kuno1/gulp-assets-task-set.git"
   },
+	"publishConfig": {
+		"access": "public"
+	},
   "keywords": [
     "gulp"
   ],
   "bin": {
     "copy-config": "./cli.js"
   },
-  "author": "Kunoichi INC",
+  "author": {
+		"name": "Kunoichi Market",
+		"url": "https://kunoichiwp.com"
+	},
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kuno1/gulp-assets-task-set/issues"
