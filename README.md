@@ -26,14 +26,14 @@ npx copy-config --gulpfile --webpack
 
 Here's a list of command options:
 
-| Option         | Shorhand | File                |
-|----------------|----------|---------------------|
-| --gulpfild     | -g       | gulpfile.js         |
-| --browserlist  | -b       | .browserlistrc      |
-| --eslint       | -e       | .eslintrc           |
-| --editorconfig | -c       | .editorconfig       |
-| --stylelint    | -s       | stylelint.config.js |
-| --webpack      | -w       | webpack.config.js   |
+| Option         | Shorhand | File              |
+|----------------|----------|-------------------|
+| --gulpfild     | -g       | gulpfile.js       |
+| --browserlist  | -b       | .browserlistrc    |
+| --eslint       | -e       | .eslintrc         |
+| --editorconfig | -c       | .editorconfig     |
+| --stylelint    | -s       | .stylelintrc.json |
+| --webpack      | -w       | webpack.config.js |
 
 After installation, try `npx gulp --tasks` to find all tasks.
 
