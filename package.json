@@ -1,6 +1,6 @@
 {
   "name": "@kunoichi/gulp-assets-task-set",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A series of gulp task set for Web Development.",
   "main": "index.js",
   "scripts": {
